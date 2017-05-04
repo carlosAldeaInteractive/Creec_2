@@ -1,0 +1,176 @@
+/*UP*/
+@media (min-width:1367px) {}
+@media (min-width:1600px) {
+    a#headerLogo {
+        margin-left: 8.37%;
+    }
+}
+@media (min-width:1920px) {
+    a#headerLogo {
+        margin-left: 13.37%;
+    }
+}
+/*1366px*/
+/*DOWN*/
+@media (max-width:1280px) {
+    .banner {
+        background-size: 200% auto !important;
+    }
+}
+@media (max-width:1200px) {
+    a#headerLogo {
+        margin-right: 0 !important;
+    }
+}
+@media (max-device-width:1024px) and (max-width:1024px) {
+    header:not(.mobileHeader) {
+        display: none !important;
+    }
+    header.mobileHeader {
+        display: block;
+    }
+
+    footer .margin {
+        width: Calc(100% - 4.256% - 4.256%);
+        margin: 0 4.256%;
+    }
+    #followUs {
+        margin-left: 10.5%;
+    }
+
+    header.mobileHeader {
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (max-device-width:800px) and (max-width:800px)   {
+    #headerLogo img {
+        height: 80px;
+    }
+    div#mobileMenuToggle {
+        height:60px;
+        width:60px;
+        top:Calc(50% - 30px);
+    }
+
+    #phoneDir {
+        width: 24%;
+        margin-bottom:20px;
+    }
+    #mailFooter {
+        margin-left: 3.531%;
+    }
+
+    #phoneDir {
+        width: 23%;
+    }
+
+    #mobileMenu {
+        width:50%;
+    }
+}
+@media (max-device-width:768px) and (max-width:768px) {
+    #phoneDir {
+        width: 88%;
+        margin-bottom: 3px;
+    }
+    #mailFooter {
+        margin-left: 0;
+        clear: left;
+        margin-top:0 !important;
+    }
+    #mailDir, #followUs {
+        margin-top: 0;
+    }
+    #followUs {
+        clear: left;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    footer a {
+        margin-top: 21px;
+        margin-bottom:20px;
+    }
+
+
+}
+@media (max-device-width:736px) and (max-width:736px)  {/*GUD!*/}
+@media (max-device-width:667px) and (max-width:667px)  {
+    .banner {
+
+        background-size: auto 100%!important;
+    }
+    #mobileMenu {
+        width:100%;
+    }
+}
+@media (max-device-width:640px) and (max-width:640px)  {/*GUD!*/}
+@media (max-device-width:601px) and (max-width:601px)  {/*GUD!*/}
+@media (max-device-width:568px) and (max-width:568px)  {
+    header.mobileHeader {
+        padding-bottom: 29px;
+    }
+}
+@media (max-device-width:480px) and (max-width:480px)  {
+    div#mobileMenuToggle {
+        top: Calc(50% - 26px);
+    }
+    #headerLogo img {
+        height: 100px;
+    }
+
+    header #headerLogo img {
+        height: 50px !important;
+    }
+    header div#mobileMenuToggle {
+        height: 40px !important;
+        width: 40px !important;
+        top: Calc(50% - 20px) !important;
+    }
+
+    #mobileMenu a,#mobileMenu span{
+        font-size:25px;
+    }
+}
+@media (max-device-width:414px) and (max-width:414px)  {
+    div#mobileMenuToggle {
+        height: 80px;
+        width: 80px;
+    }
+    #headerLogo img {
+        height: 110px;
+    }
+}
+@media (max-device-width:375px) and (max-width:375px)  {
+    #headerLogo img {
+        margin-top:30px;
+        height: 130px;
+        margin-bottom:10px;
+    }
+
+    footer .margin {
+        width: Calc(100% - 3.256% - 3.256%);
+        margin: 0 3.256%;
+    }
+    #phoneDir {
+        width: 57%;
+        margin-bottom: 12px;
+    }
+    div#mobileMenuToggle {
+        height: 100px;
+        width: 100px;
+    }
+    div#mobileMenuToggle {
+        top: Calc(50% - 40px);
+    }
+}
+@media (max-device-width:320px) and (max-width:320px)  {/*GUD!*/}
+@media (max-device-width:281px) and (max-width:281px)  {/*GUD!*/}
+
+/*SPECIALS*/
+@media (min-width:1025px) {
+    header.mobileHeader {
+        display: none;
+    }
+}

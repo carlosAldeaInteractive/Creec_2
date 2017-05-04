@@ -1,0 +1,201 @@
+/*UP*/
+@media (min-width:1367px) {}
+@media (min-width:1600px) {}
+@media (min-width:1920px) {}
+/*1366px*/
+/*DOWN*/
+@media (max-device-width:1280px) {
+    #slide_3 {
+        background-size: auto 100% !important;
+        padding-bottom: 50px !important;
+    }
+}
+@media (max-device-width:1200px) {}
+@media (max-device-width:1024px) {
+    #slide_1 {
+        background-image:none;
+    }
+    #slide_1 .block_1 {
+        width: 100%;
+    }
+    #slide_1 h1 br{
+        display: none;
+    }
+    #hand_card {
+        display: none;
+    }
+
+
+    #slide_2::before {
+        display: none !important;
+    }
+    #slide_2::after {
+        -webkit-filter:brightness(30%);
+        background-position:115% 15%;
+    }
+    #slide_2 #card {
+        opacity:0.5;
+        background-position-x:50% !important;
+    }
+    #slide_2 .margin {
+        z-index: 2;
+    }
+    #slide_2 .block_1 {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    #slide_2 .block_2{
+        width:47%;
+        margin-right:3%;
+        margin-bottom:60px;
+    }
+    #slide_2 .block_3{
+        width:45%;
+        margin-left:5%;
+        margin-right:0;
+    }
+}
+@media (max-device-width:800px) {
+    #slide_3 img {
+        display: none;
+    }
+    #slide_3 .card img {
+        display: block;
+    }
+    #slide_3 p:nth-of-type(1) {
+        margin-bottom: 42px;
+    }
+    #slide_3 img {
+        width: 73px;
+    }
+    #visa, #carnet {
+        margin-left: 6%;
+    }
+    #slide_2::after {
+        background-position: center 95%;
+        background-size: 33% auto;
+    }
+    #slide_2 a {
+        font-size: 35px !important;
+    }
+
+    #slide_2 .block_2>ul>li, #slide_2 .block_3>ul>li {
+        font-size: 27px !important;
+    }
+}
+@media (max-device-width:768px) {
+    #slide_2 #card {
+        transition:all 0.1s linear;
+        background-size: auto 54%;
+    }
+    #slide_3 img {
+        width: 45px;
+    }
+}
+@media (max-device-width:736px) {
+    #slide_2 .block_2,
+    #slide_2 .block_3 {
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+    }
+    #slide_2 .block_2 {
+        margin-bottom: 10px;
+    }
+    #slide_2 .block_3 {
+        margin-bottom: 60px;
+    }
+    #slide_2::after {
+        display: none;
+    }
+
+    #slide_2 .block_2>ul>li, #slide_2 .block_3>ul>li {
+        font-size: 34px !important;
+    }
+}
+@media (max-device-width:667px) {
+    #slide_2 #card {
+        background-size: auto 45%;
+    }
+    #slide_2 h1 {
+        font-size: 49px;
+    }
+    #slide_1 h1 {
+        font-size: 55px !important;
+    }
+    #slide_1 p {
+        font-size: 44px;
+        line-height: 48px;
+    }
+
+}
+@media (max-device-width:640px) {
+
+}
+@media (max-device-width:601px) {
+    #slide_2 h1 {
+        font-size: 60px !important;
+    }
+    #slide_1 p {
+        font-size: 46px !important;
+        line-height: 50px !important;
+    }
+}
+@media (max-device-width:568px) {
+    #slide_2 .block_2>ul>li, #slide_2 .block_3>ul>li {
+        font-size: 40px !important;
+    }
+    #slide_2 a {
+        font-size: 46px !important;
+    }
+    #slide_2 h2 {
+        font-size: 42px !important;
+    }
+
+}
+@media (max-device-width:480px) {
+    #mastercard,#visa,#sodexo {
+        margin-bottom:30px;
+    }
+    #slide_2::after {
+        background-position: center 104%;
+    }
+    #slide_1 h2 {
+        font-size: 50px !important;
+    }
+    #slide_3 p, #slide_3 h2 {
+        font-size: 45px !important;
+    }
+}
+@media (max-device-width:414px) {
+    #slide_1 h1 {
+        font-size: 30px;
+        margin-top: 46px;
+    }
+    #slide_1 h1>br{
+        display: none;
+    }
+    #slide_1 p:last-of-type {
+        margin-bottom: 60px;
+    }
+    #slide_2 h1 {
+        margin-bottom: 95px !important;
+    }
+    #slide_1 p {
+        font-size: 50px !important;
+        line-height: 56px !important;
+        margin-bottom:20px;
+    }
+    #slide_2 .block_2 {
+        margin-bottom: 70px;
+    }
+}
+@media (max-device-width:375px) {
+    #slide_1 p {
+        font-size: 57px !important;
+        line-height: 76px !important;
+    }
+}
+@media (max-device-width:360px) {}
+@media (max-device-width:320px) {  }
+@media (max-device-width:281px) {}

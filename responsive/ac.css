@@ -1,0 +1,197 @@
+/*UP*/
+@media (min-width:1367px) {}
+@media (min-width:1600px) {}
+@media (min-width:1920px) {}
+/*1366px*/
+/*DOWN*/
+@media (max-width:1280px) {}
+@media (max-width:1024px) {
+    #slide_1 h1 {
+        margin-top: 60px;
+    }
+    #slide_1 h2 {
+        font-size: 30px;
+    }
+    #slide_1 input {
+        height: 50px;
+        width: 56%;
+        font-size: 19px;
+    }
+    #slide_1 div.icon {
+        height: 50px;
+        width: 4%;
+        margin-left: Calc((100% - 60%) / 2);
+    }
+    #slide_1 #message {
+        margin-left: Calc((100% - 59%) / 2);
+        font-size: 19px;
+        margin-bottom: 15px;
+        width: 60%;
+    }
+    #slide_1 #message br {
+        display: none;
+    }
+    #slide_1 #submit {
+        margin-left: Calc((100% - 60%) / 2);
+        font-size: 25px;
+    }
+}
+@media (max-device-width:800px) {
+    section span, section li,section span[color] {
+        font-size: 26px;
+    }
+    #slide_1 h3 {
+        font-size: 27px;
+    }
+
+    #slide_1 input {
+        height: 50px;
+        width: 73%;
+        font-size: 21px;
+    }
+    #slide_1 div.icon {
+        height: 50px;
+        width: 7%;
+        margin-left: Calc((100% - 80%) / 2);
+    }
+    #slide_1 #message {
+        margin-left: Calc((100% - 79%) / 2);
+        font-size: 21px;
+        width: 80%;
+    }
+    #slide_1 #submit {
+        margin-left: Calc((100% - 80%) / 2);
+        font-size: 27px;
+    }
+
+}
+@media (max-device-width:768px) {}
+@media (max-device-width:736px) {
+    .banner>h1 {
+        font-size: 30px;
+        padding-left: 7%;
+    }
+}
+@media (max-device-width:667px) {
+    #slide_1 input {
+        height: 50px;
+        width: 83%;
+        font-size: 21px;
+    }
+    #slide_1 div.icon {
+        height: 50px;
+        width: 7%;
+        margin-left: Calc((100% - 90%) / 2);
+    }
+    #slide_1 #message {
+        margin-left: Calc((100% - 89%) / 2);
+        font-size: 21px;
+        width: 90%;
+    }
+    #slide_1 #submit {
+        margin-left: Calc((100% - 90%) / 2);
+        font-size: 27px;
+    }
+}
+@media (max-device-width:640px) {
+    #slide_1 h3 {
+        font-size: 30px;
+    }
+    #slide_1 h2 {
+        font-size: 36px;
+    }
+    section span, section li ,section span[color]{
+        font-size: 30px;
+        line-height: 48px;
+    }
+}
+@media (max-device-width:601px) {
+    #slide_1 h1 {
+        margin-top: 50px;
+    }
+    #slide_1 h1 {
+        font-size: 55px;
+    }
+}
+@media (max-device-width:568px) {
+    #slide_1 h3 {
+        font-size: 34px;
+        padding: 20px 0 !important;
+    }
+    section span, section li,section span[color] {
+        font-size: 40px;
+        line-height: 53px;
+    }
+    #slide_1 h2 {
+        font-size: 41px;
+    }
+
+    #slide_1 #submit {
+        text-align:center;
+        width: 90%;
+        padding-left:0;
+        padding-right:0;
+        margin-bottom:60px ;
+    }
+    .g-recaptcha {
+        margin-left:5%;
+    }
+}
+@media (max-device-width:480px) {
+    .banner>h1 {
+        font-size: 24px;
+    }
+    #slide_1 h2 {
+        font-size: 43px;
+    }
+    #slide_1 h3 {
+        font-size: 35px !important;
+    }
+
+    #slide_1 input {
+        height: 50px;
+        width: Calc(92% - 2px);
+        font-size: 21px;
+    }
+    #slide_1 div.icon {
+        height: 50px;
+        width: Calc(8% - 2px);
+        margin-left:0;
+    }
+    #slide_1 #message {
+        margin-left: 0;
+        font-size: 21px;
+        width: 100%;
+    }
+    #slide_1 #submit {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media (max-device-width:414px) {
+    #slide_1 h3 {
+        font-size: 30px !important;
+    }
+    .margin {
+        margin-bottom: 20px;
+    }
+
+    #slide_1 input {
+        width: Calc(88% - 2px);
+    }
+    #slide_1 div.icon {
+        width: Calc(12% - 2px);
+    }
+}
+@media (max-device-width:375px) {}
+@media (max-device-width:360px) {
+    #slide_1 h3::after {
+        display: none;
+    }
+}
+@media (max-device-width:320px) {
+    #slide_1 h1 {
+        font-size: 30px;
+    }
+}
+@media (max-device-width:281px) {}

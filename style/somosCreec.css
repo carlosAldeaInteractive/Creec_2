@@ -1,0 +1,169 @@
+header {
+    background:#00476c;
+    padding-bottom:10px;
+}
+
+#slide_1 {
+    background:white;
+    color:#26262e;
+    position: relative;
+}
+#slide_1>.margin {
+    width:Calc(100% - 8.6% - 8.6%);
+    margin-left:8.6%;
+}
+#slide_1 h1 {
+    font-family:"Open Sans",sans-serif;
+    font-weight:bold;
+    font-size:50px;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    margin-top:70px;
+    margin-bottom:30px;
+}
+#slide_1 h3 {
+    font-family:"Lato",sans-serif;
+    font-size:24px;
+    margin:0;
+    font-weight:lighter;
+    padding:0;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    margin-bottom:74px;
+}
+#slide_1 .block_1{
+    width:53%;
+    margin-bottom:87px;
+}
+#slide_1 h2 {
+    font-family:"Open Sans",sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    margin:0;
+    padding:0;
+    margin-bottom:34px;
+}
+#slide_1 p{
+    font-family:"Lato",sans-serif;
+    font-size:20px;
+    margin:0;
+    font-weight:lighter;
+    padding:0;
+    margin-bottom:106px;
+    line-height:26px;
+}
+#slide_1 ul {
+    margin:0;
+    padding:0;
+    padding-left:3%;
+}
+#slide_1 ul>li {
+    font-family:"Lato",sans-serif;
+    font-weight:lighter;
+    font-size:17px;
+}
+#slide_1 ul>li:not(:last-of-type) {
+    margin-bottom:34px;
+}
+
+#front {
+    background:url("../rsc/dynamic/somosCrece_fore.png") no-repeat 85% 65%;
+    color:#26262e;
+}
+#top_right {
+    top: 451px;
+    right: 17.3%;
+    width: 113px;
+    height: 113px;
+    background:url("../rsc/dynamic/sqr/top_right_tpv.png") no-repeat center;
+}
+#top_left {
+    top: 362px;
+    right: 19.3%;
+    width: 242px;
+    height: 139px;
+    background:url("../rsc/dynamic/sqr/top_left_af.png") no-repeat center;
+}
+#bottom_right {
+    top: 474px;
+    right: 13%;
+    width: 215px;
+    height: 141px;
+    background:url("../rsc/dynamic/sqr/bottom_right_af.png") no-repeat center;
+}
+#bottom_left {
+    top: 474px;
+    right: 28%;
+    width: 112px;
+    height: 112px;
+    background:url("../rsc/dynamic/sqr/bottom_left_af.png") no-repeat center;
+}
+
+#slide_2 {
+    color:#26262e;
+    background:url("../rsc/bg/tecnologia.png") no-repeat center;
+    background-size:auto 100%;
+}
+#slide_2 h1 {
+    font-family:"Lato",sans-serif;
+    font-weight:bolder;
+    font-size:50px;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    width:100%;
+    margin-top:65px;
+    margin-bottom:50px;
+}
+#slide_2 .block_2{
+    width:545px;
+}
+#slide_2 h2 {
+    font-family:"Lato",sans-serif;
+    font-weight:bold;
+    font-size:40px;
+    margin:0;
+    padding:0;
+    margin-bottom:54px;
+}
+#slide_2 p {
+    font-family:"Open Sans",sans-serif;
+    font-weight:lighter;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    margin-bottom:78px;
+}
+
+#slide_3 {
+    background:white url("../rsc/bg/banca.png") no-repeat 150% bottom;
+}
+#slide_3 .block_1{
+    width:537.88px;
+}
+#slide_3 p {
+    font-family:"Open Sans",sans-serif;
+    font-weight:lighter;
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+#slide_3 p:not(:last-of-type) {
+    margin-bottom:37px;
+}
+#slide_3 p:last-of-type {
+    margin-bottom:66px;
+}
+#slide_3 h1 {
+    font-family:"Lato",sans-serif;
+    font-weight:bolder;
+    font-size:50px;
+    margin:0;
+    padding:0;
+    margin-top:77px;
+    margin-bottom:53px;
+}

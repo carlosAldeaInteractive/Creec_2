@@ -1,0 +1,135 @@
+header {
+    background:#00476c;
+    padding-bottom:10px;
+}
+#slide_1 {
+    background:white;
+    position: relative;
+}
+#slide_1 h1{
+    font-family:"Open Sans",sans-serif;
+    font-size:50px;
+    padding:0;
+    margin:0;
+    font-weight:lighter;
+    color:#26262e;
+    width:100%;
+    text-align:center;
+    margin-top:111px;
+    margin-bottom:37px;
+}
+#slide_1 h2 {
+    padding:0;
+    margin:0;
+    width:100%;
+    font-family:"Lato",sans-serif;
+    font-size:26px;
+    color:#00476c;
+    margin-bottom:20px;
+}
+#slide_1 h3:hover {
+    cursor: pointer;
+}
+#slide_1 h3 {
+    padding:0;
+    position: relative;
+    margin:0;
+    width:67%;
+    font-family:"Lato",sans-serif;
+    font-size:17px;
+    color:#26262e;
+    padding:15px 0 !important;
+    border-bottom:2px solid #e8e8e8;
+}
+#slide_1 h2:nth-of-type(2){
+    margin-top:37px !important;
+}
+.margin {
+    margin-bottom:70px;
+}
+#slide_1 h3::after {
+    content: '';
+    position: absolute;
+    height:23px;
+    width:17px;
+    right:0;
+    top:Calc((100% - 17px) / 2);
+    background:url("../rsc/dynamic/arrow.png") no-repeat center;
+    background-size:auto 100%;
+    transition:all 0.3s ease-in-out;
+}
+#slide_1 h3.open::after {
+    -webkit-transform: rotateX(180deg); /* Safari */
+    transform: rotateX(180deg);
+}
+p {
+    display: inline-block;
+    width:65%;
+    height:auto;
+    margin:0 !important;
+    word-break: keep-all;
+    font-family:"Lato",sans-serif;
+    color:rgba(38,38,38,0.7);
+    font-size:17px;
+    line-height:22px;
+}
+section {
+    display: inline-block;
+    width:65%;
+    padding:33px 0;
+    display: none;
+    height:auto;
+}
+section span,section li {
+    font-family:"Lato",sans-serif;
+    color:rgba(38,38,38,0.7);
+    font-size:17px;
+    width:100%;
+}
+section span[color] {
+    font-size:18px;
+    color: #26262e;
+    font-weight:bold;
+}
+section span {
+    display: inline-block;
+}
+section li{
+    margin:10px 0;
+}
+ul {
+    margin:0;
+    padding-left:3%;
+}
+ul.number {
+    list-style-type:decimal;
+}
+ul.none {
+    list-style-type:none;
+}
+
+#scroller {
+    width:23.351%;
+    position: absolute;
+    right:8%;
+    top:230px;
+    display: inline-block;
+    border:1px solid #c4c4c4;
+    z-index:100 !important;
+}/*50 cada elemento*/
+#scroller>span {
+    padding:20px 10%;
+    width:80%;
+    color:#00476c;
+    display: inline-block;
+    font-family:"Lato",sans-serif;
+    font-size:17px;
+    vertical-align: middle;
+}
+#scroller.fix {
+    position: fixed;
+    top:30px;
+}
+#scroller>span:not(:last-child) {
+    border-bottom:1px solid #c4c4c4;
+}

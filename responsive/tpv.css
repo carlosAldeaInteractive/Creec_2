@@ -1,0 +1,412 @@
+/*UP*/
+@media (min-width:1367px) {}
+@media (min-width:1600px) {}
+@media (min-width:1920px) {}
+/*1366px*/
+/*DOWN*/
+@media (max-device-width:1280px) {
+    #slide_3 {
+        background-size: auto 100% !important;
+        padding-bottom: 50px !important;
+    }
+}
+@media (max-device-width:1200px) {}
+@media (max-device-width:1024px) {
+    #slide_1 #front {
+        background-position: center;
+        opacity: 0.15;
+    }
+    #slide_1 #squares {
+        transform: translate(-28%,0);
+        opacity: 0.1;
+    }
+    #slide_1 {
+        background-image:none;
+    }
+    #slide_1 .block_1 {
+        width: 100%;
+    }
+
+    #slide_2::before {
+        display: none !important;
+    }
+    #slide_2::after {
+        -webkit-filter: brightness(30%);
+        background-position: center 125%;
+    }
+    #slide_2 #card {
+        opacity:0.5;
+        background-position-x:50% !important;
+    }
+    #slide_2 .margin {
+        z-index: 2;
+    }
+
+    #slide_3 .margin {
+        width: Calc(100% - 2.298% - 2.298%) !important;
+        margin: 66px 2.298% !important;
+        margin-top: 66px !important;
+    }
+    #slide_3 .block_1 {
+        width: 45%;
+        margin-left: 3%;
+        margin-right: 2%;
+    }
+    #slide_3 {
+        background-position: right top !important;
+    }
+
+    #slide_4 .block_2 {
+        width: 45% ;
+        margin-right:0 ;
+        margin-left:5% ;
+    }
+    #slide_4 .block_1 {
+        width: 45% ;
+        margin-right:5% ;
+        margin-left:0 ;
+    }
+
+    #slide_2 .block_1 {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    #slide_2 .block_2{
+        width:47%;
+        margin-right:3%;
+        margin-bottom:60px;
+    }
+    #slide_2 .block_3{
+        width:45%;
+        margin-left:5%;
+        margin-right:0;
+    }
+
+    #slide_3 .card img {
+        margin-bottom: 0;
+    }
+    #slide_3 img{
+        width: 50px;
+        margin-bottom: 100px;
+    }
+    #slide_3 .margin {
+        margin-bottom:30px !important;
+    }
+}
+@media (max-device-width:800px) {
+    #slide_3 img {
+        display: none;
+    }
+    #slide_3 .card img {
+        display: block;
+    }
+    #slide_3 p:nth-of-type(1) {
+        margin-bottom: 42px;
+    }
+    #slide_3 img {
+        width: 73px;
+    }
+    #visa, #carnet {
+        margin-left: 6%;
+    }
+    #slide_2::after {
+        background-position: center 113%;
+        background-size: 42% auto;
+    }
+    #slide_2 a {
+        font-size_: 35px !important;
+    }
+}
+@media (max-device-width:768px) {
+    #slide_2 #card {
+        transition:all 0.1s linear;
+        background-size: auto 54%;
+    }
+    #slide_3 img {
+        width: 45px;
+    }
+
+    #slide_2::after {
+        background-position: center 107%;
+        background-size: 41% auto;
+    }
+}
+@media (max-device-width:736px) {
+    #slide_2 .block_2,
+    #slide_2 .block_3 {
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+    }
+    #slide_2 .block_2 {
+        margin-bottom: 10px;
+    }
+    #slide_2 .block_3 {
+        margin-bottom: 60px;
+    }
+    #slide_2 #card {
+
+        background-size: auto 50%;
+    }
+    #slide_2::after {
+        background-position: center 132%;
+        background-size: 51%;
+    }
+
+    #slide_3 p>br {
+        display: none;
+    }
+    #slide_3 h2 {
+        clear:none;
+        margin-top: 0 !important;
+    }
+    #slide_3 p,
+    #slide_3 h2 {
+        width:50%;
+        margin-left:5%;
+    }
+    #slide_3 .block_1,
+    #slide_3 .block_2 {
+        width:100%;
+        margin-left:0;
+        margin-right:0;
+        margin-bottom:30px;
+    }
+    #slide_3 .image.bank>img {
+        margin-right: 25%;
+    }
+    #slide_3 img {
+        margin-left:15%;
+        width: 80px;
+    }
+    #slide_3 p:nth-of-type(3) {
+        margin-bottom: 0;
+    }
+    #slide_3 .block_1 {
+        margin-bottom: 0;
+    }
+
+    #slide_4 .margin {
+        margin-top: 33px;
+    }
+    #slide_4::before {
+        width:100%;
+        height:430px;
+    }
+    #slide_4 .block_1 {
+        margin-bottom:60px;
+    }
+    #slide_4 .block_1,
+    #slide_4 .block_2 {
+        width:100% !important;
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+
+    #visa, #carnet {
+        margin-left: 5%;
+    }
+    #slide_3 h1 {
+        text-indent: 5%;
+    }
+
+    #slide_3 p, #slide_3 h2 {
+        width: 89% !important;
+        margin-left: 5% !important;
+        font-size_:32px !important;
+    }
+    #slide_3 h1 {
+        font-size_: 59px !important;
+    }
+}
+@media (max-device-width:667px) {
+    #slide_2 #card {
+        background-size: auto 45%;
+    }
+    #slide_2 h1 {
+        font-size_: 40px;
+    }
+    #slide_3 h1 {
+        text-indent:3%;
+        font-size_: 40px;
+    }
+    #slide_3 h1 {
+        text-align: center;
+    }
+
+    #slide_2::after {
+        background-position: center 112%;
+        background-size: 60%;
+    }
+    #slide_3 p, #slide_3 h2 {
+        font-size_: 39px !important;
+    }
+    #slide_2 .block_2>ul>li, #slide_2 .block_3>ul>li {
+        font-size_: 35px;
+    }
+}
+@media (max-device-width:640px) {
+    #slide_2::after {
+        background-position: center 112%;
+        background-size: 69%;
+    }
+}
+@media (max-device-width:601px) {
+    #slide_3 img {
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+    #slide_2 h1 {
+        font-size_: 60px !important;
+    }
+    #slide_3 .bank img {
+        margin-bottom: 0;
+    }
+    #visa, #carnet {
+        margin-left: 7%;
+    }
+
+    #slide_2::after {
+        background-size: 78%;
+        background-position: center 97%;
+    }
+}
+@media (max-device-width:568px) {
+    #slide_3 img {
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+    #slide_3 .image.bank>img {
+        margin-right: 15%;
+    }
+    #slide_3 .block_1 img,
+    #slide_3 .block_2>img {
+        display: none;
+    }
+    #slide_3 p, #slide_3 h2 {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align:center;
+    }
+
+    #slide_1 h2 {
+        font-size_: 40px !important;
+    }
+    #slide_2 h2 {
+        font-size_: 39px !important;
+    }
+    #slide_2 .block_2>ul>li, #slide_2 .block_3>ul>li {
+        font-size_: 40px !important;
+    }
+    #slide_2::after {
+        background-size: 68%;
+    }
+    #slide_2 a {
+        font-size_: 46px !important;
+    }
+    #slide_2::after {
+        background-size: 92%;
+        background-position: center 96%;
+    }
+    #visa, #carnet {
+        margin-left: 18%;
+    }
+    #slide_3 img {
+        width: 100px;
+    }
+    #slide_2 h1 {
+        margin-bottom: 97px;
+    }
+}
+@media (max-device-width:480px) {
+    #mastercard,#visa,#sodexo {
+        margin-bottom:30px;
+    }
+    #slide_2::after,#card {
+        display: none !important;
+    }
+    #slide_1 h2 {
+        font-size_: 50px !important;
+    }
+    #slide_3 p, #slide_3 h2 {
+        font-size_: 45px !important;
+    }
+    #visa, #carnet {
+        margin-left: 10%;
+    }
+}
+@media (max-device-width:414px) {
+    #slide_1 h1 {
+        font-size_: 30px;
+        margin-top: 46px;
+    }
+    #slide_1 h1>br{
+        display: none;
+    }
+    #slide_1 p:last-of-type {
+        margin-bottom: 60px;
+    }
+    #slide_2 h1 {
+        font-size_: 37px;
+    }
+    #slide_2 .block_1>ul>li {
+        font-size_: 18px;
+    }
+    #slide_3 h2 {
+        font-size_: 20px;
+    }
+
+
+    .divisor {
+        display: none;
+    }
+
+    #slide_4::before {
+        height: 460px;
+    }
+    #slide_4 ul>li:not(:last-of-type) {
+        margin-bottom: 20px;
+    }
+    #slide_4 li {
+        padding-left: 7%;
+    }
+
+
+    #slide_2 #card {
+        background-size: auto 38%;
+        opacity:0.6;
+        -webkit-filter:brightness(30%);
+    }
+    #slide_2::after {
+        background-size: 60%;
+        background-position: center 90%;
+    }
+    #slide_3 h1 {
+        font-size_: 70px !important;
+    }
+    #slide_3 p, #slide_3 h2 {
+        font-size_: 56px !important;
+    }
+    #slide_3 img {
+        width: 144px;
+    }
+    #visa, #carnet {
+        margin-left: 20%;
+    }
+}
+@media (max-device-width:375px) {
+    #slide_4::before {
+        height: 480px;
+    }
+    #slide_2 h1 {
+        font-size_: 33px;
+    }
+}
+@media (max-device-width:360px) {}
+@media (max-device-width:320px) {
+    #slide_2 #card {
+        background-size: auto 30%;
+    }
+}
+@media (max-device-width:281px) {}

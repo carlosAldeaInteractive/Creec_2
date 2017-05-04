@@ -1,0 +1,155 @@
+header {
+    background:#00476c;
+    padding-bottom:10px;
+}
+#signUp{
+    border-color:#10a4ee !important;
+}
+#slide_1 {
+    background:#f9f9f9;
+}
+#slide_1 h1{
+    font-family:"Open Sans",sans-serif;
+    font-size:50px;
+    padding:0;
+    margin:0;
+    font-weight:lighter;
+    color:#26262e;
+    width:100%;
+    text-align:center;
+    margin-top:111px;
+    margin-bottom:33px;
+}
+#slide_1 div.icon {
+    height:40px;
+    float: left;
+    width:3.23%;
+    background:white no-repeat center;
+    background-size:auto 50%;
+    border:2px solid #cccccc;
+    border-right:0;
+    border-radius:10px 0 0 10px;
+    margin-left:Calc((100% - 41.182% - 3.23%) / 2);
+    transition:background-color 0.2s ease-in-out;
+}
+#slide_1 input {
+    width:41.182%;
+    height:40px;
+    padding:0;
+    margin:0;
+    outline:none;
+    border:2px solid #cccccc;
+    background:white;
+    border-left:0;
+    border-radius:0 10px 10px 0;
+    font-size:15px;
+    color:#26262e;
+    font-family:"Open Sans",sans-serif;
+    margin-bottom:24px;
+    transition:background-color 0.2s ease-in-out;
+}
+#slide_1 input:last-of-type {
+    margin-bottom:18px;
+}
+#slide_1 input::-webkit-input-placeholder {
+    color:#26262e;
+}
+#slide_1 #message {
+    display: inline-block;
+    margin-left: Calc((100% - 41.182% - 3.23%) / 2);
+    line-height: 19px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    color: #26262e;
+    margin-bottom: 10px;
+}
+#slide_1  #message a {
+    text-decoration:underline;
+}
+#slide_1 #submit {
+    display: inline-block;
+    margin-left:Calc((100% - 41.182% - 3.23%) / 2);
+    float: left;
+    margin-top:40px;
+    margin-bottom:120px;
+    padding:16px 5%;
+    background:#10a4ee;
+    border-radius:7px;
+    color:white;
+    font-size:20px;
+    font-family:"Lato",sans-serif;
+}
+.g-recaptcha {
+    float: left;
+    display: inline-block;
+    margin-top:28px;
+    margin-left:3%;
+    border:2px solid rgba(0,0,0,0);
+    border-radius:5px;
+    transition:border-color 0.2s ease-in-out;
+}
+div.icon.text { background-image:url("../rsc/icon/user.png") !important; }
+div.icon.password { background-image:url("../rsc/icon/pass.png") !important; }
+div.icon.tel { background-image:url("../rsc/icon/celphone.png") !important; }
+.error {
+    background-color:rgba(232, 39, 39, 0.55) !important;
+}
+.g-recaptcha.error_2 {
+    border:2px solid rgba(232, 39, 39, 0.55);
+}
+
+.stopScroll {
+    overflow:hidden !important;
+}
+
+#slide_5 {
+    height:100%;
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    background:rgba(0,0,0,0.5);
+}
+#slide_5 .margin {
+    width:75%;
+    margin:0 12.5%;
+    box-shadow:1px 1px 8px 0 rgba(0,0,0,0.5);
+}
+#slide_5 section.row {
+    width:100%;
+    background:rgb(240,240,240);
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+#slide_5 section.row:first-of-type {
+    margin-top:30px;
+    border-radius:5px 5px 0 0;
+}
+#slide_5 section.row span {
+    width:Calc(44% - 1px);
+    display: inline-block;
+    padding:11px 3%;
+    float: left;
+    font-family:"Lato",sans-serif;
+    font-size:15px;
+}
+#slide_5 section.row span:nth-child(2) {
+    border-left:1px solid rgba(49,49,49,0.4);
+}
+#slide_5 section.row:not(:last-of-type) {
+    border-bottom:1px solid rgba(49,49,49,0.4);
+}
+#slide_5 section.row:last-of-type {
+    border-radius:0 0 5px 5px;
+}
+#closeSlide5 {
+    position: absolute;
+    right:15px;
+    top:15px;
+    height:20px;
+    width:20px;
+    background:url("../rsc/icon/multiply.svg") no-repeat center;
+    background-size:100% auto;
+}

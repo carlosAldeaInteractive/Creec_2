@@ -1,0 +1,652 @@
+body {
+    background:black;
+}
+
+#slide_1 {
+    background:transparent url("../rsc/bg/slide_1.jpg") no-repeat center top;
+    background-size:auto 100%;
+}
+.viewTop {
+    width:Calc(100% - 6.672%);
+    /*margin-left:6.672%;*/
+    height:auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:170px;
+    font-family:"Lato",sans-serif;
+	text-align:center;
+}
+#hiSpan {
+    font-size:60px;
+    font-weight:bold;
+    color:#71b1c8;
+    margin-bottom:43px;
+    margin: 0;
+    display: block;
+}
+#cardSpan {
+    color:white;
+    font-size:48px;
+    font-weight:bold;
+    display: block;
+    margin-bottom:21px;
+}
+#easySpan {
+    font-weight:lighter;
+    font-size:40px;
+    color:white;
+    font-family:"Open Sans",sans-serif;
+    display: block;
+    margin-bottom:51px;
+}
+#moreInfo {
+    display: inline-block;
+    padding:19px 22px;
+    background:#10a4ee;
+    font-family:"Lato",sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+    text-transform:uppercase;
+    text-align:center;
+    border-radius:3px;
+    margin-bottom:130px;
+    text-decoration:none;
+}
+#downArrow {
+    position: absolute;
+    height: 54px;
+    width: 54px;
+    display: block;
+    background: transparent url(../rsc/icon/down.png) no-repeat center;
+    background-size: 90% auto;
+    margin: 0 auto;
+    bottom: 11%;
+    left: Calc(50% - 27px);
+}
+
+#slide_2 {
+    background:black;
+    vertical-align: middle;
+    position: relative;
+}
+#slide_2 .margin {
+    display: block;
+    margin: 0;
+    float: left;
+    background: black no-repeat center;
+    background-size: cover !important;
+    width: Calc(100% / 3);
+    position: relative;
+    transition: width 0.5s ease-in-out;
+    padding-bottom: 30px !important;
+}
+#slide_2>.margin:not(.no_click):hover {
+    cursor: pointer;
+}
+.linkToFullView {
+    display: inline-block;
+    pointer-events:none;
+    width:100%;
+    float: left;
+    margin-top:465px;
+    text-align:center;
+    font-family:"Lato",sans-serif;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:white;
+    font-size:25px;
+    padding-bottom:15px;
+    margin-bottom:62px;
+    z-index:1;
+    position: relative;
+}
+.linkToFullView::after {
+    position: absolute;
+    bottom:0;
+    height:2px;
+    width:0;
+    left:50%;
+    background:white;
+    content: '';
+    transition:all 0.2s ease-in-out;
+}
+.linkToFullView:hover::after {
+    width:50%;
+    left:25%;
+}
+#slide_2 .submargin {
+    width:Calc(100% - 4.67% - 4.67%);
+    padding:0 4.67%;
+    background:rgba(10,33,45,0.98);
+    background:transparent;
+    position: relative;
+}
+.submargin h1.pf_title {
+    display: block;
+    margin-top:65px;
+    font-family:"Lato",sans-serif;
+    color:white;
+    font-weight:bold;
+    color:white;
+    font-size:48px;
+    margin-bottom:46px;
+}
+.submargin section.block_2 {
+    width:45%;
+    display: inline-block;
+    float: left;
+}
+.submargin section.block_2+section.block_2 {
+    width:55%;
+}
+.submargin .spanTitleSlide3,.spanTitle2Slide3 {
+    color:white;
+    font-family:"Open Sans",sans-serif;
+    font-weight:600;
+    font-size:30px;
+    display: inline-block;
+    margin-bottom:44px;
+}
+.submargin .spanTitle2Slide3 {
+    margin-left:4%;
+    font-weight:normal;
+}
+.submargin .slide3P,.submargin li{
+    margin:0;
+    line-height:33px;
+    color:white;
+    margin-bottom:44px;
+    font-family:"Open Sans",sans-serif;
+    font-size:18px;
+}
+.submargin li {
+    margin:0;
+    font-weight:lighter;
+    font-size:18px;
+}
+.submargin ul {
+    margin-left:2%;
+}
+.submargin .block_1 {
+    width:100%;
+    display: inline-block;
+    float: left;
+    margin-bottom:20px;
+}
+.submargin .cell {
+    display: block;
+    min-height:30px;
+    float: left;
+    font-family:"Open Sans",sans-serif;
+    color:white;
+}
+.submargin .cell:nth-child(4n + 1) {
+    width:35%;
+}
+.submargin .cell:not(:nth-child(4n + 1)) {
+    width:Calc(65% / 3);
+    text-align:center;
+}
+.submargin .cell:not(:nth-child(4n + 1)),
+.submargin .cell:first-of-type {
+    font-weight:bold;
+}
+.submargin .cell {
+    margin-bottom:30px;
+}
+.submargin .check {
+    background:transparent url("../rsc/icon/check.png") no-repeat;
+    background-size:auto 60%;
+    background-position:50% 50%;
+}
+.submargin #pf_block *:not(.linkToFullView) {
+    display:none;
+}
+#slide_2 .back {
+    position: absolute;
+    z-index: 0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    background:black no-repeat;
+}
+#slide_2 .back.anim {
+    transition:all 0.2s ease-in-out;
+}
+#slide_2 .fore {
+    position: absolute;
+    z-index: 1;
+    pointer-events:none;
+    width:100%;
+    height:100%;
+    transition:all 0.1s ease-in-out;
+    background: rgba(212,228,239,0);
+    background: -moz-linear-gradient(top, rgba(212,228,239,0) 0%, rgba(173,191,202,0) 13%, rgba(96,116,128,0) 39%, rgba(10,33,45,0.48) 68%, rgba(10,33,45,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,228,239,0)), color-stop(13%, rgba(173,191,202,0)), color-stop(39%, rgba(96,116,128,0)), color-stop(68%, rgba(10,33,45,0.48)), color-stop(100%, rgba(10,33,45,1)));
+    background: -webkit-linear-gradient(top, rgba(212,228,239,0) 0%, rgba(173,191,202,0) 13%, rgba(96,116,128,0) 39%, rgba(10,33,45,0.48) 68%, rgba(10,33,45,1) 100%);
+    background: -o-linear-gradient(top, rgba(212,228,239,0) 0%, rgba(173,191,202,0) 13%, rgba(96,116,128,0) 39%, rgba(10,33,45,0.48) 68%, rgba(10,33,45,1) 100%);
+    background: -ms-linear-gradient(top, rgba(212,228,239,0) 0%, rgba(173,191,202,0) 13%, rgba(96,116,128,0) 39%, rgba(10,33,45,0.48) 68%, rgba(10,33,45,1) 100%);
+    background: linear-gradient(to bottom, rgba(212,228,239,0) 0%, rgba(173,191,202,0) 13%, rgba(96,116,128,0) 39%, rgba(10,33,45,0.48) 68%, rgba(10,33,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#0a212d', GradientType=0 );
+}
+.fullWidth .fore {
+    opacity:0;
+}
+#slide_2 .back.blur {
+    filter:blur(4px) ;
+    -webkit-filter:blur(4px);
+    background-blend-mode: multiply;
+    background-color:#0a212d;
+    background-blend-mode: multiply;
+}
+.fullWidth {
+    width:100% !important;
+    background-color:#0a212d;
+}
+.noWidth {
+    width:0 !important;
+
+}
+.noWidth *:not(.back):not(.fore),
+.invisible {
+    display: none;
+}
+#pf_block .back{
+    background-position: 20% -160px;
+    background-image:url(../rsc/bg/pf_block.jpg);
+}
+#pm_block .back{
+    background-position: 88% -3px;
+    background-image: url(../rsc/bg/pm_block.jpg);
+}
+#fl_block .back{
+    background-position: 77% top;
+    background-image:url(../rsc/bg/fl_block.jpg);
+}
+.fullWidth#pm_block .back{
+    background-size:auto 1000px !important;
+}
+#slide_2 .submargin {
+    display: none;
+}
+.invisibleColor *{
+    opacity:0 !important;
+}
+.submargin *{
+    opacity:1;
+    transition:all 0.2s ease-in-out;
+}
+span.close {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background: url("../rsc/icon/multiply.svg") no-repeat;
+    background-size:70% auto;
+    top: 0;
+    right: 4%;
+}
+span.close:hover {
+    cursor: pointer;
+}
+.cell label {
+    width:100%;
+    display: inline-block;
+}
+
+#slide_3 .margin {
+    margin:0 4.67%;
+    vertical-align: top;
+}
+#slide_3 {
+    background:white url("../rsc/bg/slide_3.png") no-repeat center;
+    background-size:cover;
+    background-position:100% top;
+}
+#slide_3 section:not(.block_3) {
+    margin-top:83px;
+    display: block;
+    float: left;
+    width:Calc(100% / 3);
+}
+#slide_3 * {
+    font-family:"Lato",sans-serif;
+    color:#4f4f4f;
+}
+#slide_3 div.image {
+    height: 66px;
+    width: 66px;
+    margin-right: 6.87%;
+    float: left;
+    background: transparent no-repeat center;
+    background-size:100% auto;
+}
+#cuenta { background-image:url("../rsc/icon/cuenta.png") !important; }
+#historial { background-image:url("../rsc/icon/historial.png") !important; }
+#maneja { background-image:url("../rsc/icon/maneja.png") !important; }
+#sin_comisiones { background-image:url("../rsc/icon/sin_comisiones.png") !important; }
+#slide_3 p.text {
+    margin:0;
+    display: inline-block;
+    width:Calc(100% - 6.87% - 66px - 68px);
+}
+#slide_3 .block_1 p.text:nth-of-type(1) {
+    margin-bottom:60px !important;
+}
+#slide_3 .block_2 p.text:nth-of-type(1) {
+    margin-bottom:42px !important;
+}
+#slide_3 .block_2 p.text {
+    width:Calc(100% - 6.87% - 66px);
+}
+#slide_3 p.text>label {
+    font-weight:bold;
+    font-size:20px;
+    width:100%;
+    display: inline-block;
+    margin-bottom:27px;
+}
+#slide_3 section.block_3 {
+    clear: left;
+    display: block;
+    float: left;
+    margin-top:35px;
+    width:Calc((100% / 3)*2);
+    margin-bottom:62px;
+}
+#slide3Link {
+    font-size:14px;
+    color:white;
+    font-weight:bold;
+    display: inline-block;
+    text-decoration:none;
+    float: right;
+    padding:11px 18px;
+    border-radius:3px;
+    background-color:#10a4ee;
+}
+.personaAbreTuCuenta {
+    font-family:"Lato",sans-serif;
+    padding: 9px 3.2%;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-decoration:none !important;
+}
+
+#slide_4 {
+    background:white url("../rsc/bg/slide_4.png") no-repeat center top;
+    background-size:cover;
+}
+#slide_4 * {
+    font-family:"Lato",sans-serif;
+    color:white;
+}
+#slide4Title {
+    font-size:40px;
+    font-weight:bold;
+    margin-top:85px;
+    display: inline-block;
+    line-height:52px;
+    width:100%;
+    text-align:center;
+    margin-bottom:10px;
+}
+#slide_4 section {
+    float:left;
+}
+#slide_4 .block_1 {
+    width:25%;
+    margin:0 Calc(25% / 6);
+    float: left;
+    text-align:center;
+    margin-bottom:30px !important;
+    display: inline-block;
+}
+.slide4Subtitle {
+    font-size:30px;
+    font-weight:normal;
+    margin:0;
+    margin-bottom:33px;
+    display: inline-block;
+    width:100%;
+    text-align:center;
+}
+.slide4BoldSubSubTitle {
+    font-size:18px;
+    width:100%;
+    display: inline-block;
+    font-weight:bold;
+}
+.slide4NormalText {
+    font-family:"Open Sans",sans-serif !important;
+    font-size:18px;
+    font-weight:lighter;
+    margin-bottom:0 !important;
+    line-height: 24px;
+    margin-top:0 !important;
+    display: inline-block;
+}
+.slide4NormalText:last-of-type {
+    margin-bottom:85px;
+}
+#slide_4 ul {
+    margin:0;
+    padding:0 5%;
+}
+#slide_4 li {
+    font-family:"Open Sans",sans-serif !important;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:9px;
+}
+#slide_4 a {
+    font-size:14px;
+    text-decoration:none;
+    padding:14px 12px;
+    border-radius:3px;
+    background:#10a4ee;
+    float:left;
+    font-weight:bold;
+    margin:42px 20px;
+}
+#slide_4 a:first-of-type {
+    margin-left:36%;
+}
+#slide_4 img{
+    width:30%;
+    margin-bottom:30px;
+}
+
+#slide_5 {
+    vertical-align: middle;
+    background:white url("../rsc/bg/slide_5.png") no-repeat center;
+    background-size:cover ;
+}
+#slide_5 *{
+    font-family:"Lato",sans-serif;
+    color:#4f4f4f;
+}
+#slide_5 .margin {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+#slide_5 .block_1 {
+    width:31.072%;
+    float: left;
+    margin-right:5%;
+}
+#slide5Title {
+    font-weight:bolder;
+    font-size:50px;
+    margin:0;
+    line-height:54px;
+    margin-bottom:54px;
+    display: inline-block;
+    width:100%;
+}
+#slide5Text {
+    display: inline-block;
+    width:100%;
+    line-height:37px;
+    font-size:22px;
+}
+#slide_5 .block_2{
+    width:13.41%;
+    float: left;
+}
+#slide_5 .block_2:not(:last-of-type) {
+    margin-right:3.3%;
+}
+#slide_5 .image {
+    width:100%;
+    background:transparent no-repeat center;
+    height:80px;
+}
+#slide_5 .image:not(:last-of-type) {
+    margin-bottom:100px;
+}
+
+#slide_5 .image.autoH {
+    background-size:90% auto !important;
+}
+#slide_5 .image.autoW {
+    background-size:auto 100% !important;
+}
+#comercialMexicana  { background-image:url("../rsc/icon/comercialMexicana.png")!important; }
+#soriana            { background-image:url("../rsc/icon/soriana.png")!important; }
+#walmart            { background-image:url("../rsc/icon/walmart.png")!important; }
+#chedraui           { background-image:url("../rsc/icon/chedraui.png")!important; }
+#cityClub           { background-image:url("../rsc/icon/cityClub.png")!important; }
+#sevenEleven        { background-image:url("../rsc/icon/sevenEleven.png")!important; }
+#heb                { background-image:url("../rsc/icon/heb.png")!important; }
+#oxxo               { background-image:url("../rsc/icon/oxxo.png")!important; }
+#sears              { background-image:url("../rsc/icon/sears.png")!important; }
+#samsClub           { background-image:url("../rsc/icon/samsClub.png")!important; }
+#starbucks          { background-image:url("../rsc/icon/starbucks.png")!important; }
+#red                { background-image:url("../rsc/icon/red.png")!important; }
+#mexico                { background-image:url("../rsc/icon/mexico.png")!important; }
+
+#slide_6 {
+    background:white url("../rsc/bg/slide_6.png") no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+    position: relative;
+}
+#slide_6 * {
+    font-family:"Open Sans",sans-serif;
+}
+#slide_6 .title {
+    margin:0;
+    font-size:50px;
+    line-height:54px;
+    font-family:"Lato",sans-serif;
+    margin-top:70px;
+    width:100%;
+    margin-bottom:52px;
+}
+#slide_6 .margin>* {
+    display: inline-block;
+    float: left;
+}
+#slide_6 .block_1 {
+    width:29.764%;
+    margin-bottom:40px;
+}
+#slide_6 .text {
+    display: inline;
+    display: inline-block;
+    line-height:37px;
+    font-size:22px;
+}
+#slide_6 .block_2 {
+    display: inline-block;
+    margin-bottom:44px;
+    width:42.846%;
+}
+#slide_6 .block_2 span{
+    display: inline-block;
+    float: left;
+    width:Calc(100% - 66px - 2.863%);
+    margin-left:2.863%;
+}
+#slide_6 .image {
+    width:66px;
+    height:66px;
+    float: left;
+    background:transparent no-repeat center;
+    background-size: auto 100%;
+}
+#slide_6 .image:not(.invisibleImage)~span {
+    margin-top:10px;
+}
+#slide_6 .block_2:last-of-type {
+    margin-bottom:67px;
+}
+.invisibleImage {
+    opacity:0;
+}
+#financiero {
+    background-image:url("../rsc/icon/financiero.png") !important;
+}
+#equipo {
+    background-image:url("../rsc/icon/equipo.png") !important;
+}
+#slide_6::before {
+    content: '';
+    position: absolute;
+    height:100%;
+    width:100%;
+    background:transparent url("../rsc/bg/slide_6_2.png") no-repeat;
+    background-position:94% bottom;
+}
+.masCreec {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 14px 3%;
+    border-radius: 3px;
+    background: #10a4ee;
+    float: left;
+    font-weight: bold;
+    margin-top: 42px;
+    color:white !important;
+}
+
+.cell[num] {
+    transition:all 0.5s ease-in-out;
+}
+.hiddenCell {
+    opacity:0 !important;
+    background-position:50% -50% !important;
+}
+
+#slide_7 {
+    background:white;
+    padding-bottom:54px;
+}
+#slide_7 .margin {
+    margin:0 3.188%;
+    width:Calc(100% - 3.188% - 3.188%);
+}
+#slide_7 h1{
+    margin:0;
+    padding:0;
+    font-family:"Open Sans",sans-serif;
+    font-size:30px;
+    width:100%;
+    text-align:center;
+    color:#26262e;
+    font-weight:lighter;
+    margin-top:45px;
+    margin-bottom:43px;
+    display: inline-block;
+}
+#slide_7 img{
+    margin-left:5% !important;
+    height:45px;
+    float: left;
+}
+
