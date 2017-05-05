@@ -1,0 +1,104 @@
+header {
+    background:#00476c;
+    padding-bottom:10px;
+}
+#slide_1 {
+    background:white;
+    color:#26262e;
+    position: relative;
+}
+#slide_1>.margin {
+    width:Calc(100% - 8.6% - 8.6%);
+    margin-left:8.6%;
+}
+#slide_1 h1 {
+    font-family:"Open Sans",sans-serif;
+    font-weight:normal;
+    font-size:50px;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    margin-top:70px;
+    margin-bottom:42px;
+}
+
+#slide_1 .block_1{
+    width:50%;
+    float: left;
+    margin-bottom:87px;
+}
+#slide_1 .block_1:last-child {
+    width:47%;
+    margin-left:3%;
+}
+#slide_1 h2 {
+    font-family:"Lato",sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    margin:0;
+    padding:0;
+}
+#slide_1 p{
+    font-family:"Lato",sans-serif;
+    font-size:20px;
+    margin:0;
+    font-weight:lighter;
+    padding:0;
+    margin-bottom:26px;
+    line-height:26px;
+}
+h1~h2 {
+    margin-bottom:30px !important;
+}
+
+
+h3 {
+    width:97%;
+    font-family:"Lato",sans-serif;
+    font-size:24px;
+    color:white;
+    background:#70b0c7;
+    padding:20px 0;
+    font-weight:normal;
+    padding-left:3% !important;
+    margin:0;
+    display: inline-block;
+}
+
+.row {
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom:1px solid #70b0c7;
+}
+.cell {
+    display: table;
+    float: left;
+    min-height:50px;
+    border-left:1px solid #70b0c7;
+    vertical-align: middle;
+}
+.cell:nth-child(1) {
+    width:Calc(65% - 1px);
+}
+.cell:nth-child(2) {
+    border-right:1px solid #70b0c7;
+    width:Calc(35% - 2px);
+}
+.cell>label {
+    font-family:"Lato",sans-serif;
+    font-weight:bold;
+    color:#26262e;
+    font-size:14px;
+    display: table-cell;
+    vertical-align:middle;
+}
+.cell:nth-child(1)>label{
+    padding-left:3%;
+}
+.cell:nth-child(2)>label{
+    text-align:center;
+    padding:0 10%;
+}
