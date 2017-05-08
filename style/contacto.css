@@ -167,7 +167,7 @@ h3 {
 h3:hover {
     cursor: pointer;
 }
-h3::after {
+.selector>h3::after {
     content: '';
     position:absolute;
     border:10px solid transparent;
