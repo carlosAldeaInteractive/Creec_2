@@ -21,4 +21,24 @@ $(function() {
             if(response == '')$(".g-recaptcha").addClass("error_2");;
         }
     });
+
+    $(".selector>h3").click(function() {
+        var $this = $(this).parent();
+        var $opt = $this.find(">div");
+        if($this.hasClass("open")) {
+            $this.removeClass("open");
+            $opt.attr("hidden",'');
+        }else {
+            $this.addClass("open");
+            $opt.removeAttr("hidden");
+        }
+    });
+    $(".selector>div").click(function() {
+        var $this = $(this).parent();
+        var value = $(this).text();
+        $this.find("h3").text(value);
+        $('[type="hidden"]').val(value);
+        $(".selector>h3").trigger("click");
+    });
+
 });

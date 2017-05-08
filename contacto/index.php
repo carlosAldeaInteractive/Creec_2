@@ -54,7 +54,14 @@
             <div class="email icon"></div><input id="email" type="email" placeholder="Correo Eléctronico:">
             <div class="emp icon"></div><input id="emp" type="text" placeholder="Empresa:">
             <div class="tel icon"></div><input id="tel" type="tel" placeholder="Teléfono:">
-            <h3>Tipo de comentario</h3>
+            <input type="hidden" value="">
+            <section class="selector">
+                <h3>Tipo de comentario</h3>
+                <div hidden>Queja sobre el servicio/colaborador</div>
+                <div hidden>Consulta/solicitud de información</div>
+                <div hidden>Sugerencia</div>
+                <div hidden>Aclaraciones/Reclamaciones</div>
+            </section>
             <div class="comment icon"></div><textarea id="comment" type="tel" placeholder="Comentario:"></textarea>
             <button id="submit"><h3>Enviar</h3></button>
             <div class="g-recaptcha" data-sitekey="6LfQVxgUAAAAANdx8D2c5cnbm6bZExj2Cfzy3NrO"></div>
