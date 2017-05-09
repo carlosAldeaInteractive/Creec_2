@@ -499,3 +499,14 @@ div#mobileMenuToggle.show {
     color: #4f4f4f;
     margin: 0;
 }
+
+
+/*Temporal*/
+#slide_0 .image#webinar,
+#slide_0 .image#chat,
+#slide_000 .image#webinar_2,
+#slide_000 .image#chat_2,
+#slide_0 #divisor,
+#slide_000 #divisor_2 {
+    display:none !important;
+}
